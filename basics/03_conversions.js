@@ -24,7 +24,7 @@ console.log(ValueInNo2) //0
 
 let value = 32
 let negValue = -value
-console.log(negValue)
+console.log(negValue*2)
 console.log(2**3)
 console.log(2/3)
 

@@ -32,3 +32,6 @@ console.log(url.replace("%20","-"))
 
 console.log(url.includes("umesh"))
 console.log(url.split("-"))
+
+
+// using new keyword with string creates a object and while without it , it is primitive and when we use functions on primitive it temporary creates the object

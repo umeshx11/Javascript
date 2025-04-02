@@ -1,4 +1,4 @@
-const myArr = [1,2,3,4,true,"umesh"]
+lconst myArr = [1,2,3,4,true,"umesh"]
 // arrays can store different datatypes
 // arrays are resizable
 // during copy of arrays it create shallow copy(same reference as the original), not deep copies(not same referance as original)
@@ -27,3 +27,5 @@ console.log("A ",myArr)
 const newArra = myArr.splice(1,3) // it returns the deleted element from the array
 console.log(newArra)
 console.log("B ",myArr)
+console.log("umesh is gandu");
+console.log("hello world!");

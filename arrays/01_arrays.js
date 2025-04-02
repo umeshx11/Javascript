@@ -27,5 +27,3 @@ console.log("A ",myArr)
 const newArra = myArr.splice(1,3) // it returns the deleted element from the array
 console.log(newArra)
 console.log("B ",myArr)
-console.log("umesh is gandu");
-console.log("hello world!");

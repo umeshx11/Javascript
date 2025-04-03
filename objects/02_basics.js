@@ -36,3 +36,21 @@ console.log(obj4)
 
 const obj5 = {...obj1,...obj2} // using the separator operator in creating the objects
 console.log(obj5)
+
+// databases gives us the array of objects
+users = [
+    {
+        id : 1,
+        email : "j@gmail.com"
+    },
+    {
+        id : 2,
+        email : "good"
+    }
+]
+users[0].email;
+
+console.log(Object.keys(tinderUser)) // this returns the array within which keys are the elements
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
+console.log(tinderUser.hasOwnProperty('One Piece')) // only for key value

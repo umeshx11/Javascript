@@ -20,3 +20,5 @@ const anotherTwo = (num1,num2) =>( num1 + num2); // implicit return
 
 const object = (num1,num2) => ({userName : "umesh"}) // we have to use parenthesis , otherwise it will return undefined
 console.log(object(2,3))
+
+// studey more about this in functions and arrow function

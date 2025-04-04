@@ -1,0 +1,4 @@
+Learn JS (this) from https://chatgpt.com/share/67ef6372-872c-8000-af69-7072e6e82c10
+
+
+JAVASCRIPT EXECUTION CONTEXT

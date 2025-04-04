@@ -2,3 +2,10 @@ Learn JS (this) from https://chatgpt.com/share/67ef6372-872c-8000-af69-7072e6e82
 
 
 JAVASCRIPT EXECUTION CONTEXT
+1) Global EXECUTION context
+2) Function EXECUTION context
+3) Eval Execution context
+
+// Global Execution Environment(Global Environment)
+// Memory Creation Phase
+// Execution Phase

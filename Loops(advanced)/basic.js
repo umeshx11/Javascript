@@ -37,3 +37,7 @@ for (const key in goodObject) { // objects
 for (const elements in arr) { // array
     console.log(arr[elements])
 }
+
+for (const elements in map) {
+    
+}

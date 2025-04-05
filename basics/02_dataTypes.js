@@ -1,4 +1,5 @@
 "use strict "; // treat all js code as newer version
+// if wriiten wrong syntax then it print the error
 
 // alert(3+3) // it will work on browsers
 

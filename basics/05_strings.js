@@ -1,9 +1,23 @@
-const name = 'umesh'
+const name = 'umesh'  //String Literal 
 let repoCount = 10
 // console.log(name + repoCount + "Value") it is outdated
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)
-let goodname = new String('umesh')
-// now it is defined as key value pair
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)   //string interpolation
+
+
+let goodname = new String('umesh')  // String Object using new keyword
+
+
+let a = "hello";
+let b = new String("hello");
+
+console.log(a === b); // false ❌
+console.log(a == b);  // true ✅ (because of type conversion)
+
+
+
+// now it is defined as key value pair -> as it became a object
+
+
 console.log(goodname[0])
 console.log(goodname.__proto__)
 console.log(goodname.length)

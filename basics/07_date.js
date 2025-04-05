@@ -1,4 +1,4 @@
-const date = new Date();
+const date = new Date();// Date is a built-in object used to work with dates and times.
 console.log(date)
 console.log(date.toString())
 console.log(date.toDateString())
@@ -22,8 +22,8 @@ let mycreatedDate = new Date("01-14-2025")
 console.log(mycreatedDate.toLocaleString())
 
 // *******timestamps
-let timestamp = Date.now()
+let timestamp = Date.now() // gets the current timestamp in milliseconds since January 1, 1970
 console.log(timestamp)
-console.log(mycreatedDate.getTime())
+console.log(mycreatedDate.getTime()) 
 
 // learn date and time in detail from mdn docs

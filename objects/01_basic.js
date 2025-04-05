@@ -1,3 +1,13 @@
+// Use object literal when you just need a normal object.
+
+// Use singleton when you want only one instance across your app — like a config object, logger, or database connection.
+// one instance ->
+// To share data (e.g., user settings, config).
+
+// To avoid unnecessary duplication.
+
+// To ensure only one connection or one service runs
+
 // singleton -> if made by constructor not by literal
 // object.create
 

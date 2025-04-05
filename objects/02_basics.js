@@ -53,4 +53,4 @@ users[0].email;
 console.log(Object.keys(tinderUser)) // this returns the array within which keys are the elements
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty('One Piece')) // only for key value
+console.log(tinderUser.hasOwnProperty('companyName')) // only for key value return true not for values

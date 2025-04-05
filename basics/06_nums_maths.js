@@ -1,7 +1,15 @@
-const score = 100
-const newscore = new Number(200)
+const score = 100 // Number literal
+const newscore = new Number(200) // Number as object
 console.log(score)
 console.log(newscore)
+
+let a = 100;
+let b = new Number(100);
+
+console.log(a === b); // false ❌ (different types)
+console.log(a == b);  // true ✅ (type conversion)
+
+
 console.log(typeof(newscore.toString()))
 console.log(score.toFixed(1)) // used to create precision of desired decimals
 
@@ -14,7 +22,7 @@ console.log(hunreds.toLocaleString('en-IN')) // if do not pass en-IN then it ret
 
 
 // ******************Maths
-console.log(Math)
+console.log(Math) //Math is a built-in object in JavaScript.
 console.log(Math.abs(-4))
 console.log(Math.round(2.3))
 console.log(Math.ceil(2.3))

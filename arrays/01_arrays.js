@@ -16,6 +16,11 @@ myArr.shift() // removes from the start
 // console.log(myArr.includes(9))
 
 // const newArr = myArr.join()
+// const myArr = ["apple", "banana", "cherry"];
+// const newArr = myArr.join(" - ");
+
+// console.log(newArr); // "apple - banana - cherry"
+
 // console.log(newArr)
 // console.log(typeof newArr)
 

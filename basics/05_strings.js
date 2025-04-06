@@ -5,7 +5,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)   //st
 
 
 let goodname = new String('umesh')  // String Object using new keyword
-
+console.log(goodname) //[String: 'umesh']
 
 let a = "hello";
 let b = new String("hello");

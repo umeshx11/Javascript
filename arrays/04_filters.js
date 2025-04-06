@@ -1,5 +1,5 @@
 const arr = [1,2,3,4,5]
-const values = arr.filter((num) => num>4) // implicit return
+const values = arr.filter((num) => num>4) // implicit return  // it returns array
 const values1 = arr.filter((num)=>{
     num>4 // not same as before as here we to return expicitely 
 })

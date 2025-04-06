@@ -1,13 +1,13 @@
 const coding = ["js","ruby","java","python","cpp"]
 // it is a high order function
-coding.forEach( function (val) {
-    console.log(val)
-})
+// coding.forEach( function (val) {
+//     console.log(val)
+// })
 
-coding.forEach( (value) =>{
-    console.log(value)
-}
-) // this is called callback
+// coding.forEach( (value) =>{
+//     console.log(value)
+// }
+//) // this is called callback
 
 function printMe(item){
     console.log(item)
@@ -29,3 +29,4 @@ const values = myCoding.forEach((item)=>{
 })
 
 console.log(values) // undefined
+// You're seeing undefined because Array.prototype.forEach() does not return a value — it always returns undefined

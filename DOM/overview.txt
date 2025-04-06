@@ -1,0 +1,6 @@
+DOM Manipulation , Events in browsers -> Learn these in deep
+console.log(window)
+console.log(window.document)
+console.log(document)
+console.dir(document)
+html collections and node collections are not array , they are similar to the array

@@ -1,7 +1,7 @@
 const score = 100 // Number literal
-const newscore = new Number(200) // Number as object
+const newscore = new Number(200) // Number as object 
 console.log(score)
-console.log(newscore)
+console.log(newscore) //[Number: 200]
 
 let a = 100;
 let b = new Number(100);

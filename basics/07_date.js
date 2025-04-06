@@ -15,9 +15,9 @@ console.log(date.toLocaleString())
 console.log(typeof date) // object
 
 // let mycreatedDate = new Date(2025, 0 ,20)
-// let mycreatedDate = new Date(2025, 0 ,20,5,3)
+let mycreatedDate = new Date(2025, 0 ,20,5,3) // month is from 0-11
 // let mycreatedDate = new Date("2025-01-14")
-let mycreatedDate = new Date("01-14-2025")
+// let mycreatedDate = new Date("01-14-2025") //  in string month is from 1-12
 //console.log(mycreatedDate.toDateString())
 console.log(mycreatedDate.toLocaleString())
 

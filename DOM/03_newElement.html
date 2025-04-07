@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umesh</title>
 </head>
 <body>
@@ -11,9 +9,20 @@
 <script>
    const div =  document.createElement('div')
    div.className = "main"
-   div.id = Math.round(Math.random()*10 +1)
-//    these above two are default 
+   div.id = Math.round((Math.random()*10)+1)
+// these above two are default 
     div.setAttribute("title","generated-title")
-   div.set
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    div.innerText="People are rising to new heights"
+    const addText = document.createTextNode("Umesh") 
+    div.appendChild(addText)
+    document.body.appendChild(div)
+
+//     const div = document.createElement('div');
+// div.className = "main";              // initial class
+// div.classList.add("good");           // adds "good" class
+// now div has: class="main good"
+// div.className += " good";
 </script>
 </html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <!-- this is a comment this will go in comment node of parent child nodes no 1 as 0 will text node as enter -->
+        <div class="daty">Monday</div>
+        <div class="daty">Tuesday</div>
+        <div class="daty">Wednesday</div>
+        <div class="daty">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    console.log(parent)
+    console.log(parent.children) // this gives the html collection
+    console.log(parent.children[0].innerHTML)
+    parent.children[0].style.backgroundColor = 'green'
+    console.log(parent.firstElementChild)
+    console.log(parent.lastElementChild)
+
+    const dayOne = document.querySelector('.daty')
+    console.log(dayOne.parentElement)
+    console.log(dayOne.nextElementSibling)
+
+    console.log("nodes ->" , parent.childNodes)
+    // firstChild,firstElementChild,lastChild,lastElementChild
+</script>
+</html>

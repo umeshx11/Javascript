@@ -1,0 +1,23 @@
+DOM Manipulation , Events in browsers -> Learn these in deep
+console.log(window)
+console.log(window.document)
+console.log(document)
+console.dir(document)
+html collections and node collections are not array , they are similar to the array
+
+
+difference between html collections and node collections
+
+getElementById().innerHTML
+getElementById().innerText
+getElementById().textContent 
+the difference between innerText and textContent is that innerText does not show the text which is hidden
+
+here we have to write inside the quotes
+document.querySelector() it returns the single element
+document.querySelectorAll() it retuns the nodelist
+document.getElementByClassName() // it returns the HTMLCollection
+in nodelist there is for each loop while in HTMLCollection , there is not , but we can use conversion in to then use it
+
+
+Now we will learn all about relations ->
